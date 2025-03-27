@@ -268,6 +268,7 @@ Section Cross References
     task_manager.o(.text) refers to y_global.o(.bss) for uart_receive_buf
     task_manager.o(.text) refers to robot.o(.data) for imu_gyro_data
     task_manager.o(.text) refers to robot.o(.data) for imu_acc_data
+    task_manager.o(.text) refers to motor_control.o(.bss) for Motor_A
     y_global.o(.text) refers to _scanf_int.o(.text) for _scanf_int
     y_global.o(.text) refers to scanf_fp.o(.text) for _scanf_real
     y_global.o(.text) refers to printfa.o(i.__0printf) for __2printf
@@ -314,14 +315,16 @@ Section Cross References
     app_ps2.o(.text) refers to y_global.o(.bss) for eeprom_info
     app_ps2.o(.text) refers to robot.o(.bss) for Vel
     app_ps2.o(.data) refers to app_ps2.o(.conststring) for .conststring
-    motor_control.o(.text) refers to misc.o(.text) for NVIC_PriorityGroupConfig
-    motor_control.o(.text) refers to uart1.o(.text) for UART1_Init
     motor_control.o(.text) refers to gpio_int.o(.text) for MOTOR_AB_Init
     motor_control.o(.text) refers to sys.o(.text) for Delay_ms
     motor_control.o(.text) refers to f2d.o(.text) for __aeabi_f2d
-    motor_control.o(.text) refers to printfa.o(i.__0printf) for __2printf
     motor_control.o(.text) refers to d2f.o(.text) for __aeabi_d2f
     motor_control.o(.text) refers to y_motor.o(.text) for SPEED_PidCtlA
+    motor_control.o(.text) refers to misc.o(.text) for NVIC_PriorityGroupConfig
+    motor_control.o(.text) refers to uart1.o(.text) for UART1_Init
+    motor_control.o(.text) refers to task_manager.o(.text) for Motor_Control_Task
+    motor_control.o(.text) refers to printfa.o(i.__0printf) for __2printf
+    motor_control.o(.text) refers to motor_control.o(.bss) for .bss
     acos.o(i.__hardfp_acos) refers (Special) to iusefp.o(.text) for __I$use$fp
     acos.o(i.__hardfp_acos) refers to dunder.o(i.__mathlib_dbl_infnan) for __mathlib_dbl_infnan
     acos.o(i.__hardfp_acos) refers to errno.o(i.__set_errno) for __set_errno

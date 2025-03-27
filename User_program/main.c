@@ -5,12 +5,6 @@
 #include "usbh_usr.h"
 #include "usbh_hid_core.h"
 
-typedef struct
-{
-	double RT; // ???????,??m/s
-	float TG;  // ???????,??m/s
-	short PWM; // ????PWM????
-} MOTOR_T;
 
 __ALIGN_BEGIN USB_OTG_CORE_HANDLE USB_OTG_Core_dev __ALIGN_END;
 __ALIGN_BEGIN USBH_HOST USB_Host __ALIGN_END;
