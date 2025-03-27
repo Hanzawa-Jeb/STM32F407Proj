@@ -13,13 +13,12 @@
 
 
 #define Task_Num 6
-#define MOTOR_COUNT 500
-
-#define HFPeriod_COUNT 1	// 5ms
+#define MOTOR_COUNT 5       // 改为5ms，原来是500ms太慢了
+#define HFPeriod_COUNT 1    // 1ms
 #define FaulPeriod_COUNT 10 // 10ms
-#define Robot_COUNT 5		// 10ms
-#define KEY_COUNT 80		// 10ms
-#define LEDPeriod_COUNT 6 // 500ms
+#define Robot_COUNT 5       // 5ms
+#define KEY_COUNT 80        // 80ms
+#define LEDPeriod_COUNT 500 // 500ms
 #define filter_N 12
 
 extern __ALIGN_BEGIN USB_OTG_CORE_HANDLE USB_OTG_Core_dev __ALIGN_END;
@@ -153,9 +152,9 @@ void Task_Manage_List_Init(void)
 	TasksPare[4].Task_Count = 30;
 	TasksPare[4].Task_Function = Task_LED; // 500ms的LED的闪烁
 
-    // 添加电机控制任务
+    // 修改电机控制任务的配置
     TasksPare[5].Task_Period = MOTOR_COUNT;    // 5ms周期
-    TasksPare[5].Task_Count = 20;               // 错开其他任务执行时间
+    TasksPare[5].Task_Count = 2;               // 改为2，避免和其他任务同时执行
     TasksPare[5].Task_Function = Motor_Control_Task;
 }
 // USER CODE END

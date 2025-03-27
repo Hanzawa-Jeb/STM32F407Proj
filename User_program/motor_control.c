@@ -27,6 +27,7 @@ void Motor_Init(void)
 void Motor_Control_Task(void)
 {
     // 通过编码器获取车轮实时转速m/s
+    while(1){
     Motor_A.RT = (float)((int16_t)ENCODER_A_GetCounter()*420);
     ENCODER_A_SetCounter(0);
     Motor_B.RT = (float)((int16_t)ENCODER_B_GetCounter()*420);
@@ -47,6 +48,7 @@ void Motor_Control_Task(void)
     MOTOR_B_SetSpeed(Motor_B.PWM);
     MOTOR_C_SetSpeed(Motor_C.PWM);
     MOTOR_D_SetSpeed(Motor_D.PWM);
+    }
 }
 
 

@@ -15,11 +15,7 @@ int main(void)
 	MOTOR_T Motor_A, Motor_B, Motor_C, Motor_D;
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
 
-	Delay_ms(5);
-	SysTickConfig(); // 1ms定时器.
-	Delay_ms(5);
-	GPIO_LED_int(); // LED初始化
-	Delay_ms(5);
+	Motor_Init();
 	SERVO_Init();
 
 	//	KEY_Init();
@@ -47,16 +43,10 @@ int main(void)
 	//UART6_Init(115200);
 	//Delay_ms(5);
 
-	ENCODER_A_Init();
-	ENCODER_B_Init();
-	ENCODER_C_Init();
-	ENCODER_D_Init();
+
 	setup_w25q64();
 
-    Motor_A.TG = 20000;
-    Motor_B.TG = 20000;
-    Motor_C.TG = 20000;
-    Motor_D.TG = 20000;
+
     
 	// 6050姿态初始化
 	MPU_Init();

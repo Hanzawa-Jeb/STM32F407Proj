@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\SJRobot_center.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\SJRobot_center.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Thu Mar 27 21:58:40 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Thu Mar 27 22:12:06 2025
 <BR><P>
 <H3>Maximum Stack Usage =        520 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -65,7 +65,7 @@ Function Pointers
  <LI><a href="#[6]">GAMEPAD_Decode</a> from usbh_hid_gamepad.o(.text) referenced 2 times from usbh_hid_gamepad.o(.data)
  <LI><a href="#[5]">GAMEPAD_Init</a> from usbh_hid_gamepad.o(.text) referenced 2 times from usbh_hid_gamepad.o(.data)
  <LI><a href="#[7b]">HASH_RNG_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
- <LI><a href="#[1e4]">HFPeriod_1msTask</a> from task_manager.o(.text) referenced from task_manager.o(.text)
+ <LI><a href="#[1e5]">HFPeriod_1msTask</a> from task_manager.o(.text) referenced from task_manager.o(.text)
  <LI><a href="#[23]">HardFault_Handler</a> from stm32f4xx_it.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[4b]">I2C1_ER_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[4a]">I2C1_EV_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
@@ -75,7 +75,7 @@ Function Pointers
  <LI><a href="#[73]">I2C3_EV_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[8]">KEYBRD_Decode</a> from usbh_hid_keybd.o(.text) referenced 2 times from usbh_hid_keybd.o(.data)
  <LI><a href="#[7]">KEYBRD_Init</a> from usbh_hid_keybd.o(.text) referenced 2 times from usbh_hid_keybd.o(.data)
- <LI><a href="#[1ef]">KEY_RUN</a> from task_manager.o(.text) referenced from task_manager.o(.text)
+ <LI><a href="#[1f0]">KEY_RUN</a> from task_manager.o(.text) referenced from task_manager.o(.text)
  <LI><a href="#[a]">MOUSE_Decode</a> from usbh_hid_mouse.o(.text) referenced 2 times from usbh_hid_mouse.o(.data)
  <LI><a href="#[9]">MOUSE_Init</a> from usbh_hid_mouse.o(.text) referenced 2 times from usbh_hid_mouse.o(.data)
  <LI><a href="#[24]">MemManage_Handler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
@@ -93,7 +93,7 @@ Function Pointers
  <LI><a href="#[54]">RTC_Alarm_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[2e]">RTC_WKUP_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[21]">Reset_Handler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
- <LI><a href="#[1ec]">Robot_Control</a> from task_manager.o(.text) referenced from task_manager.o(.text)
+ <LI><a href="#[1ed]">Robot_Control</a> from task_manager.o(.text) referenced from task_manager.o(.text)
  <LI><a href="#[5c]">SDIO_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[4e]">SPI1_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[4f]">SPI2_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
@@ -116,7 +116,7 @@ Function Pointers
  <LI><a href="#[59]">TIM8_CC_IRQHandler</a> from y_spwm.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[58]">TIM8_TRG_COM_TIM14_IRQHandler</a> from y_servo.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[57]">TIM8_UP_TIM13_IRQHandler</a> from y_spwm.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
- <LI><a href="#[1ed]">Task_LED</a> from task_manager.o(.text) referenced from task_manager.o(.text)
+ <LI><a href="#[1ee]">Task_LED</a> from task_manager.o(.text) referenced from task_manager.o(.text)
  <LI><a href="#[5f]">UART4_IRQHandler</a> from uart4.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[60]">UART5_IRQHandler</a> from y_sbus.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[50]">USART1_IRQHandler</a> from uart1.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
@@ -159,7 +159,7 @@ Function Pointers
  <LI><a href="#[85]">fputc</a> from uart1.o(.text) referenced from printf8.o(i.__0printf$8)
  <LI><a href="#[84]">isspace</a> from isspace_c.o(.text) referenced from scanf_char.o(.text)
  <LI><a href="#[7d]">main</a> from main.o(.text) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
- <LI><a href="#[1ea]">task_send_Rece</a> from task_manager.o(.text) referenced from task_manager.o(.text)
+ <LI><a href="#[1eb]">task_send_Rece</a> from task_manager.o(.text) referenced from task_manager.o(.text)
 </UL>
 <P>
 <H3>
@@ -627,8 +627,8 @@ Global Symbols
 <LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SW_GetS2
 <LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SW_GetS1
 <LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_sr_ultrasonic_read
-<LI><a href="#[202]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi
-<LI><a href="#[201]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi_pro
+<LI><a href="#[203]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi
+<LI><a href="#[202]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi_pro
 </UL>
 
 <P><STRONG><a name="[257]"></a>GPIO_ReadInputData</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_gpio.o(.text), UNUSED)
@@ -675,8 +675,8 @@ Global Symbols
 
 <P><STRONG><a name="[25a]"></a>GPIO_Write</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f4xx_gpio.o(.text), UNUSED)
 
-<P><STRONG><a name="[1ee]"></a>GPIO_ToggleBits</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f4xx_gpio.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[1ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Task_LED
+<P><STRONG><a name="[1ef]"></a>GPIO_ToggleBits</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f4xx_gpio.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Task_LED
 </UL>
 
 <P><STRONG><a name="[106]"></a>GPIO_PinAFConfig</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, stm32f4xx_gpio.o(.text))
@@ -1498,7 +1498,7 @@ Global Symbols
 <LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBH_Open_Channel
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBH_Alloc_Channel
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
+<BR>[Called By]<UL><LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
 </UL>
 
 <P><STRONG><a name="[d2]"></a>USB_OTG_BSP_Resume</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, usbh_core.o(.text), UNUSED)
@@ -2189,7 +2189,7 @@ Global Symbols
 <LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ARRPreloadConfig
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[205]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
+<BR>[Called By]<UL><LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -2209,7 +2209,7 @@ Global Symbols
 <LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ARRPreloadConfig
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[205]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
+<BR>[Called By]<UL><LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -2228,8 +2228,7 @@ Global Symbols
 <LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseStructInit
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[205]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
-<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<BR>[Called By]<UL><LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
 </UL>
 
 <P><STRONG><a name="[1c6]"></a>ENCODER_A_GetCounter</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gpio_int.o(.text))
@@ -2257,8 +2256,7 @@ Global Symbols
 <LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseStructInit
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[205]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
-<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<BR>[Called By]<UL><LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
 </UL>
 
 <P><STRONG><a name="[1c8]"></a>ENCODER_B_GetCounter</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gpio_int.o(.text))
@@ -2286,8 +2284,7 @@ Global Symbols
 <LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseStructInit
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[205]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
-<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<BR>[Called By]<UL><LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
 </UL>
 
 <P><STRONG><a name="[1ca]"></a>ENCODER_C_GetCounter</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gpio_int.o(.text))
@@ -2315,8 +2312,7 @@ Global Symbols
 <LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseStructInit
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[205]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
-<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<BR>[Called By]<UL><LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
 </UL>
 
 <P><STRONG><a name="[1cc]"></a>ENCODER_D_GetCounter</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gpio_int.o(.text))
@@ -2347,7 +2343,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHB1PeriphClockCmd
 <LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_init
+<BR>[Called By]<UL><LI><a href="#[1e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_init
 </UL>
 
 <P><STRONG><a name="[123]"></a>ultrasonic_sensor_init</STRONG> (Thumb, 114 bytes, Stack size 40 bytes, gpio_int.o(.text))
@@ -2359,7 +2355,7 @@ Global Symbols
 <LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseStructInit
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_init
+<BR>[Called By]<UL><LI><a href="#[1e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_init
 </UL>
 
 <P><STRONG><a name="[124]"></a>sensor_sr_ultrasonic_read</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, gpio_int.o(.text))
@@ -2371,18 +2367,14 @@ Global Symbols
 <LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCounter
 <LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_us
 </UL>
-<BR>[Called By]<UL><LI><a href="#[200]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_ziyou_bizhang
-<LI><a href="#[1ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_gensui_moshi
+<BR>[Called By]<UL><LI><a href="#[201]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_ziyou_bizhang
+<LI><a href="#[200]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_gensui_moshi
 </UL>
 
-<P><STRONG><a name="[129]"></a>GPIO_LED_int</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, gpio_int.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = GPIO_LED_int &rArr; GPIO_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHB1PeriphClockCmd
+<P><STRONG><a name="[129]"></a>GPIO_LED_int</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, gpio_int.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHB1PeriphClockCmd
 <LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
 <LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
-</UL>
-<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[12a]"></a>VIN_Init</STRONG> (Thumb, 132 bytes, Stack size 64 bytes, gpio_int.o(.text))
@@ -2412,12 +2404,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[1dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Bat_Task
 </UL>
 
-<P><STRONG><a name="[137]"></a>SysTickConfig</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, sys.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SysTickConfig
-</UL>
-<BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
-</UL>
-<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<P><STRONG><a name="[137]"></a>SysTickConfig</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, sys.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
 </UL>
 
 <P><STRONG><a name="[126]"></a>Delay_us</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, sys.o(.text))
@@ -2438,17 +2426,17 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;KEY_Scan
 <LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beep_on_times
-<LI><a href="#[205]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
-<LI><a href="#[201]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi_pro
+<LI><a href="#[202]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi_pro
+<LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[1dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Key_Task
 </UL>
 
-<P><STRONG><a name="[1fd]"></a>millis</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, sys.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[200]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_ziyou_bizhang
-<LI><a href="#[1ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_gensui_moshi
-<LI><a href="#[202]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi
-<LI><a href="#[1eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loop_action
+<P><STRONG><a name="[1fe]"></a>millis</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, sys.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[201]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_ziyou_bizhang
+<LI><a href="#[200]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_gensui_moshi
+<LI><a href="#[203]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi
+<LI><a href="#[1ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loop_action
 </UL>
 
 <P><STRONG><a name="[2a]"></a>SysTick_Handler</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, sys.o(.text))
@@ -2487,11 +2475,11 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart1_send_byte
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_group
-<LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
-<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
-<LI><a href="#[1eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loop_action
+<BR>[Called By]<UL><LI><a href="#[1f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_group
+<LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
+<LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loop_action
 </UL>
 
 <P><STRONG><a name="[50]"></a>USART1_IRQHandler</STRONG> (Thumb, 164 bytes, Stack size 24 bytes, uart1.o(.text))
@@ -2573,8 +2561,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
 <LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_SendData
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
-<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<BR>[Called By]<UL><LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
+<LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
 </UL>
 
 <P><STRONG><a name="[52]"></a>USART3_IRQHandler</STRONG> (Thumb, 154 bytes, Stack size 24 bytes, y_zx_uart3.o(.text))
@@ -2669,8 +2657,8 @@ Global Symbols
 <LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
 <LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_ms
 </UL>
-<BR>[Called By]<UL><LI><a href="#[202]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<BR>[Called By]<UL><LI><a href="#[203]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -2859,10 +2847,10 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[187]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashWrite
 <LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashWriteS
 <LI><a href="#[17a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setup_w25q64
-<LI><a href="#[1f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_group
-<LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
-<LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
-<LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;others_init
+<LI><a href="#[1f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_group
+<LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
+<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
+<LI><a href="#[1e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;others_init
 </UL>
 
 <P><STRONG><a name="[176]"></a>spi_set_speed</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, y_w25q64.o(.text))
@@ -2974,7 +2962,7 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[186]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashWriteSector
 <LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashWriteS
-<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
 </UL>
 
 <P><STRONG><a name="[184]"></a>SpiFlashEraseSector</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, y_w25q64.o(.text))
@@ -2987,8 +2975,8 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[187]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashWrite
 <LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashWriteS
-<LI><a href="#[1f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rewrite_eeprom
-<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rewrite_eeprom
+<LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
 </UL>
 
 <P><STRONG><a name="[185]"></a>SpiFlashWriteS</STRONG> (Thumb, 152 bytes, Stack size 40 bytes, y_w25q64.o(.text))
@@ -2998,7 +2986,7 @@ Global Symbols
 <LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashWriteNoCheck
 <LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashRead
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rewrite_eeprom
+<BR>[Called By]<UL><LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rewrite_eeprom
 </UL>
 
 <P><STRONG><a name="[186]"></a>SpiFlashWriteSector</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, y_w25q64.o(.text), UNUSED)
@@ -3065,7 +3053,7 @@ Global Symbols
 <LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
+<BR>[Called By]<UL><LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
 </UL>
 
 <P><STRONG><a name="[193]"></a>servo_inc_offset</STRONG> (Thumb, 142 bytes, Stack size 24 bytes, y_servo.o(.text))
@@ -3220,7 +3208,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MPU_Read_Len
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Robot_Control
+<BR>[Called By]<UL><LI><a href="#[1ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Robot_Control
 </UL>
 
 <P><STRONG><a name="[1a9]"></a>MPU_Get_Accelerometer</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, y_mpu6050.o(.text))
@@ -3228,7 +3216,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MPU_Read_Len
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Robot_Control
+<BR>[Called By]<UL><LI><a href="#[1ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Robot_Control
 </UL>
 
 <P><STRONG><a name="[1aa]"></a>MPU_Write_Len</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, y_mpu6050.o(.text), UNUSED)
@@ -3400,7 +3388,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OLED_Fill
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 </UL>
 
 <P><STRONG><a name="[1bd]"></a>OLED_Init</STRONG> (Thumb, 248 bytes, Stack size 16 bytes, y_oled.o(.text))
@@ -3441,7 +3429,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[1ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OLED_Set_Pos
 <LI><a href="#[1b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OLED_Write_Dat
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 </UL>
 
 <P><STRONG><a name="[1c3]"></a>OLED_DrawBMP</STRONG> (Thumb, 66 bytes, Stack size 40 bytes, y_oled.o(.text))
@@ -3499,7 +3487,7 @@ Global Symbols
 <LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MOTOR_A_SetSpeed
 </UL>
 
-<P><STRONG><a name="[1e1]"></a>setup_kinematics</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, kinematics.o(.text))
+<P><STRONG><a name="[1e2]"></a>setup_kinematics</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, kinematics.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -3519,7 +3507,7 @@ Global Symbols
 <LI><a href="#[1ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
 <LI><a href="#[1d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_move
+<BR>[Called By]<UL><LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_move
 </UL>
 
 <P><STRONG><a name="[1db]"></a>Robot_Task</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, robot.o(.text))
@@ -3527,7 +3515,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ROBOT_Kinematics
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Robot_Control
+<BR>[Called By]<UL><LI><a href="#[1ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Robot_Control
 </UL>
 
 <P><STRONG><a name="[1dc]"></a>Bat_Task</STRONG> (Thumb, 104 bytes, Stack size 0 bytes, robot.o(.text), UNUSED)
@@ -3548,7 +3536,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[1dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Key_Task
 </UL>
 
-<P><STRONG><a name="[7d]"></a>main</STRONG> (Thumb, 242 bytes, Stack size 8 bytes, main.o(.text))
+<P><STRONG><a name="[7d]"></a>main</STRONG> (Thumb, 202 bytes, Stack size 8 bytes, main.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 480<LI>Call Chain = main &rArr; others_init &rArr; parse_cmd &rArr; kinematics_move &rArr; kinematics_analysis &rArr; __hardfp_sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_PriorityGroupConfig
@@ -3566,20 +3554,15 @@ Global Symbols
 <LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART2_Init
 <LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART1_Init
 <LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_ms
-<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTickConfig
 <LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VIN_Init
-<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_LED_int
-<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ENCODER_D_Init
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ENCODER_C_Init
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ENCODER_B_Init
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ENCODER_A_Init
 <LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MOTOR_CD_Init
 <LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MOTOR_AB_Init
-<LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;others_init
-<LI><a href="#[1e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_init
-<LI><a href="#[1e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Task_Manage_List_Init
-<LI><a href="#[1e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Execute_Task_List_RUN
-<LI><a href="#[1e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setup_kinematics
+<LI><a href="#[1e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;others_init
+<LI><a href="#[1e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_init
+<LI><a href="#[1e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Task_Manage_List_Init
+<LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Init
+<LI><a href="#[1e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Execute_Task_List_RUN
+<LI><a href="#[1e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setup_kinematics
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
@@ -3589,32 +3572,32 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
 </UL>
 
-<P><STRONG><a name="[1e3]"></a>Execute_Task_List_RUN</STRONG> (Thumb, 44 bytes, Stack size 24 bytes, task_manager.o(.text))
+<P><STRONG><a name="[1e4]"></a>Execute_Task_List_RUN</STRONG> (Thumb, 44 bytes, Stack size 24 bytes, task_manager.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Execute_Task_List_RUN
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[1e4]"></a>HFPeriod_1msTask</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, task_manager.o(.text))
+<P><STRONG><a name="[1e5]"></a>HFPeriod_1msTask</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, task_manager.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 520<LI>Call Chain = HFPeriod_1msTask &rArr; app_ps2 &rArr; parse_cmd &rArr; kinematics_move &rArr; kinematics_analysis &rArr; __hardfp_sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBH_Process
-<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
-<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
-<LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
-<LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
+<LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
+<LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
+<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> task_manager.o(.text)
 </UL>
-<P><STRONG><a name="[1ea]"></a>task_send_Rece</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, task_manager.o(.text))
+<P><STRONG><a name="[1eb]"></a>task_send_Rece</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, task_manager.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = task_send_Rece &rArr; loop_action &rArr; do_group_once &rArr; parse_action &rArr; duoji_doing_set &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[1eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loop_action
+<BR>[Calls]<UL><LI><a href="#[1ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loop_action
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> task_manager.o(.text)
 </UL>
-<P><STRONG><a name="[1ec]"></a>Robot_Control</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, task_manager.o(.text))
+<P><STRONG><a name="[1ed]"></a>Robot_Control</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, task_manager.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = Robot_Control &rArr; Robot_Task &rArr; ROBOT_Kinematics &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MPU_Get_Accelerometer
@@ -3623,111 +3606,111 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> task_manager.o(.text)
 </UL>
-<P><STRONG><a name="[1ef]"></a>KEY_RUN</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, task_manager.o(.text))
+<P><STRONG><a name="[1f0]"></a>KEY_RUN</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, task_manager.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> task_manager.o(.text)
 </UL>
-<P><STRONG><a name="[1ed]"></a>Task_LED</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, task_manager.o(.text))
-<BR><BR>[Calls]<UL><LI><a href="#[1ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ToggleBits
+<P><STRONG><a name="[1ee]"></a>Task_LED</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, task_manager.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ToggleBits
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> task_manager.o(.text)
 </UL>
-<P><STRONG><a name="[1e2]"></a>Task_Manage_List_Init</STRONG> (Thumb, 82 bytes, Stack size 0 bytes, task_manager.o(.text))
+<P><STRONG><a name="[1e3]"></a>Task_Manage_List_Init</STRONG> (Thumb, 80 bytes, Stack size 0 bytes, task_manager.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[1f0]"></a>soft_reset</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, y_global.o(.text))
+<P><STRONG><a name="[1f1]"></a>soft_reset</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = soft_reset &rArr; __2printf
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 </UL>
 
-<P><STRONG><a name="[1f9]"></a>str_contain_str</STRONG> (Thumb, 64 bytes, Stack size 12 bytes, y_global.o(.text))
+<P><STRONG><a name="[1fa]"></a>str_contain_str</STRONG> (Thumb, 64 bytes, Stack size 12 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = str_contain_str
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
-<LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
+<BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
 </UL>
 
-<P><STRONG><a name="[1f1]"></a>rewrite_eeprom</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, y_global.o(.text))
+<P><STRONG><a name="[1f2]"></a>rewrite_eeprom</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = rewrite_eeprom &rArr; SpiFlashWriteS &rArr; SpiFlashWriteNoCheck &rArr; SpiFlashWritePage &rArr; SpiFlashWaitBusy &rArr; SpiFlashReadSR &rArr; SpiWriteRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashWriteS
 <LI><a href="#[184]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashEraseSector
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
-<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
+<BR>[Called By]<UL><LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
 </UL>
 
-<P><STRONG><a name="[1f2]"></a>zx_uart_send_str</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, y_global.o(.text))
+<P><STRONG><a name="[1f3]"></a>zx_uart_send_str</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = zx_uart_send_str &rArr; uart3_send_str
 </UL>
 <BR>[Calls]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart3_send_str
 <LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart1_send_str
 </UL>
-<BR>[Called By]<UL><LI><a href="#[200]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_ziyou_bizhang
-<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
-<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
+<BR>[Called By]<UL><LI><a href="#[201]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_ziyou_bizhang
+<LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
 </UL>
 
-<P><STRONG><a name="[1e8]"></a>parse_action</STRONG> (Thumb, 668 bytes, Stack size 32 bytes, y_global.o(.text))
+<P><STRONG><a name="[1e9]"></a>parse_action</STRONG> (Thumb, 668 bytes, Stack size 32 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = parse_action &rArr; duoji_doing_set &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;duoji_doing_set
-<LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
-<LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
-<LI><a href="#[1f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rewrite_eeprom
+<LI><a href="#[1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
+<LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rewrite_eeprom
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
-<LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
-<LI><a href="#[1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_move
-<LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
-<LI><a href="#[1e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
+<BR>[Called By]<UL><LI><a href="#[1ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
+<LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
+<LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_move
+<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
+<LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
 </UL>
 
-<P><STRONG><a name="[1f4]"></a>kinematics_move</STRONG> (Thumb, 238 bytes, Stack size 64 bytes, y_global.o(.text))
+<P><STRONG><a name="[1f5]"></a>kinematics_move</STRONG> (Thumb, 238 bytes, Stack size 64 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 368<LI>Call Chain = kinematics_move &rArr; kinematics_analysis &rArr; __hardfp_sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
+<BR>[Calls]<UL><LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
 <LI><a href="#[1d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_analysis
 <LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 </UL>
 
-<P><STRONG><a name="[1f7]"></a>getMaxTime</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, y_global.o(.text))
+<P><STRONG><a name="[1f8]"></a>getMaxTime</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = getMaxTime
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
+<BR>[Called By]<UL><LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
 </UL>
 
-<P><STRONG><a name="[1f5]"></a>do_group_once</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, y_global.o(.text))
+<P><STRONG><a name="[1f6]"></a>do_group_once</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = do_group_once &rArr; parse_action &rArr; duoji_doing_set &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashRead
-<LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
-<LI><a href="#[1f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getMaxTime
-<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
+<LI><a href="#[1f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[1f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getMaxTime
+<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
-<LI><a href="#[1eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loop_action
+<BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loop_action
 </UL>
 
 <P><STRONG><a name="[2e2]"></a>int_exchange</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, y_global.o(.text), UNUSED)
 
-<P><STRONG><a name="[1f8]"></a>print_group</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, y_global.o(.text))
+<P><STRONG><a name="[1f9]"></a>print_group</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = print_group &rArr; SpiFlashRead &rArr; SpiWriteRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashRead
 <LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart1_send_str
-<LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[1f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 </UL>
 
-<P><STRONG><a name="[1e7]"></a>parse_cmd</STRONG> (Thumb, 1384 bytes, Stack size 88 bytes, y_global.o(.text))
+<P><STRONG><a name="[1e8]"></a>parse_cmd</STRONG> (Thumb, 1384 bytes, Stack size 88 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 456<LI>Call Chain = parse_cmd &rArr; kinematics_move &rArr; kinematics_analysis &rArr; __hardfp_sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OLED_ShowColorFont
@@ -3737,26 +3720,26 @@ Global Symbols
 <LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beep_on_times
 <LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart1_send_str
 <LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
-<LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
-<LI><a href="#[1f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_group
-<LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
-<LI><a href="#[1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_move
-<LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
-<LI><a href="#[1f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;str_contain_str
-<LI><a href="#[1f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;soft_reset
-<LI><a href="#[1fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sscanf
+<LI><a href="#[1f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[1f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_group
+<LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
+<LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_move
+<LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
+<LI><a href="#[1fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;str_contain_str
+<LI><a href="#[1f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;soft_reset
+<LI><a href="#[1fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sscanf
 <LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
-<LI><a href="#[1e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
-<LI><a href="#[1df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;others_init
+<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
+<LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
+<LI><a href="#[1e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;others_init
 </UL>
 
-<P><STRONG><a name="[1df]"></a>others_init</STRONG> (Thumb, 154 bytes, Stack size 16 bytes, y_global.o(.text))
+<P><STRONG><a name="[1e0]"></a>others_init</STRONG> (Thumb, 154 bytes, Stack size 16 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 472<LI>Call Chain = others_init &rArr; parse_cmd &rArr; kinematics_move &rArr; kinematics_analysis &rArr; __hardfp_sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashRead
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -3769,49 +3752,49 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;servo_inc_offset
 </UL>
 
-<P><STRONG><a name="[1fc]"></a>replace_char</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, y_global.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<P><STRONG><a name="[1fd]"></a>replace_char</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, y_global.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
 </UL>
 
-<P><STRONG><a name="[1e9]"></a>save_action</STRONG> (Thumb, 226 bytes, Stack size 24 bytes, y_global.o(.text))
+<P><STRONG><a name="[1ea]"></a>save_action</STRONG> (Thumb, 226 bytes, Stack size 24 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = save_action &rArr; rewrite_eeprom &rArr; SpiFlashWriteS &rArr; SpiFlashWriteNoCheck &rArr; SpiFlashWritePage &rArr; SpiFlashWaitBusy &rArr; SpiFlashReadSR &rArr; SpiWriteRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[184]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashEraseSector
 <LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashWriteNoCheck
 <LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart3_send_str
 <LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart1_send_str
-<LI><a href="#[1fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
-<LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
-<LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
-<LI><a href="#[1fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;replace_char
-<LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
-<LI><a href="#[1f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rewrite_eeprom
+<LI><a href="#[1fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
+<LI><a href="#[1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<LI><a href="#[1f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[1fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;replace_char
+<LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
+<LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rewrite_eeprom
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
+<BR>[Called By]<UL><LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
 </UL>
 
-<P><STRONG><a name="[1eb]"></a>loop_action</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, y_global.o(.text))
+<P><STRONG><a name="[1ec]"></a>loop_action</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, y_global.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = loop_action &rArr; do_group_once &rArr; parse_action &rArr; duoji_doing_set &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart1_send_str
-<LI><a href="#[1fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;millis
-<LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
+<LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;millis
+<LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_send_Rece
+<BR>[Called By]<UL><LI><a href="#[1eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_send_Rece
 </UL>
 
 <P><STRONG><a name="[2e5]"></a>get_action_index</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, y_global.o(.text), UNUSED)
 
-<P><STRONG><a name="[1fe]"></a>set_servo</STRONG> (Thumb, 394 bytes, Stack size 40 bytes, y_global.o(.text), UNUSED)
+<P><STRONG><a name="[1ff]"></a>set_servo</STRONG> (Thumb, 394 bytes, Stack size 40 bytes, y_global.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
 <LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
 <LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
-<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
+<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
 <LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
 </UL>
 
-<P><STRONG><a name="[1e0]"></a>app_sensor_init</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, app_sensor.o(.text))
+<P><STRONG><a name="[1e1]"></a>app_sensor_init</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, app_sensor.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = app_sensor_init &rArr; ultrasonic_sensor_init &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ultrasonic_sensor_init
@@ -3820,59 +3803,63 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[1ff]"></a>AI_gensui_moshi</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, app_sensor.o(.text))
+<P><STRONG><a name="[200]"></a>AI_gensui_moshi</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, app_sensor.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = AI_gensui_moshi &rArr; sensor_sr_ultrasonic_read
 </UL>
-<BR>[Calls]<UL><LI><a href="#[1fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;millis
+<BR>[Calls]<UL><LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;millis
 <LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_sr_ultrasonic_read
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
+<BR>[Called By]<UL><LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
 </UL>
 
-<P><STRONG><a name="[200]"></a>AI_ziyou_bizhang</STRONG> (Thumb, 122 bytes, Stack size 8 bytes, app_sensor.o(.text))
+<P><STRONG><a name="[201]"></a>AI_ziyou_bizhang</STRONG> (Thumb, 122 bytes, Stack size 8 bytes, app_sensor.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = AI_ziyou_bizhang &rArr; zx_uart_send_str &rArr; uart3_send_str
 </UL>
-<BR>[Calls]<UL><LI><a href="#[1fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;millis
+<BR>[Calls]<UL><LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;millis
 <LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_sr_ultrasonic_read
-<LI><a href="#[1f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
+<LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;zx_uart_send_str
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
+<BR>[Called By]<UL><LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
 </UL>
 
-<P><STRONG><a name="[1e5]"></a>app_sensor_run</STRONG> (Thumb, 126 bytes, Stack size 16 bytes, app_sensor.o(.text))
+<P><STRONG><a name="[1e6]"></a>app_sensor_run</STRONG> (Thumb, 126 bytes, Stack size 16 bytes, app_sensor.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = app_sensor_run &rArr; AI_xunji_moshi &rArr; beep_on_times &rArr; Delay_ms
 </UL>
-<BR>[Calls]<UL><LI><a href="#[200]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_ziyou_bizhang
-<LI><a href="#[1ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_gensui_moshi
-<LI><a href="#[202]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi
-<LI><a href="#[201]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi_pro
+<BR>[Calls]<UL><LI><a href="#[201]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_ziyou_bizhang
+<LI><a href="#[200]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_gensui_moshi
+<LI><a href="#[203]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi
+<LI><a href="#[202]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AI_xunji_moshi_pro
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
+<BR>[Called By]<UL><LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
 </UL>
 
-<P><STRONG><a name="[1e6]"></a>app_ps2</STRONG> (Thumb, 786 bytes, Stack size 40 bytes, app_ps2.o(.text))
+<P><STRONG><a name="[1e7]"></a>app_ps2</STRONG> (Thumb, 786 bytes, Stack size 40 bytes, app_ps2.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 496<LI>Call Chain = app_ps2 &rArr; parse_cmd &rArr; kinematics_move &rArr; kinematics_analysis &rArr; __hardfp_sin &rArr; __ieee754_rem_pio2 &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiFlashRead
-<LI><a href="#[1fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
-<LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
-<LI><a href="#[203]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
-<LI><a href="#[204]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[1f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;str_contain_str
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
-<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
+<LI><a href="#[1fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
+<LI><a href="#[1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<LI><a href="#[204]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+<LI><a href="#[205]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[1fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;str_contain_str
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
+<BR>[Called By]<UL><LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HFPeriod_1msTask
 </UL>
 
-<P><STRONG><a name="[205]"></a>Motor_Init</STRONG> (Thumb, 68 bytes, Stack size 8 bytes, motor_control.o(.text), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_ms
+<P><STRONG><a name="[1df]"></a>Motor_Init</STRONG> (Thumb, 68 bytes, Stack size 8 bytes, motor_control.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 116<LI>Call Chain = Motor_Init &rArr; ENCODER_A_Init &rArr; TIM_ICInit &rArr; TI2_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_ms
 <LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ENCODER_D_Init
 <LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ENCODER_C_Init
 <LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ENCODER_B_Init
 <LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ENCODER_A_Init
 <LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MOTOR_CD_Init
 <LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MOTOR_AB_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[80]"></a>Motor_Control_Task</STRONG> (Thumb, 314 bytes, Stack size 24 bytes, motor_control.o(.text))
@@ -3899,8 +3886,8 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> task_manager.o(.text)
 </UL>
-<P><STRONG><a name="[204]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
+<P><STRONG><a name="[205]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
 </UL>
 
 <P><STRONG><a name="[2e6]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
@@ -3909,24 +3896,24 @@ Global Symbols
 
 <P><STRONG><a name="[206]"></a>__aeabi_memset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, memseta.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[207]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset$wrapper
-<LI><a href="#[203]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+<LI><a href="#[204]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
 </UL>
 
 <P><STRONG><a name="[2e8]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 
 <P><STRONG><a name="[2e9]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 
-<P><STRONG><a name="[203]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text))
+<P><STRONG><a name="[204]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text))
 <BR><BR>[Calls]<UL><LI><a href="#[206]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
+<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
 </UL>
 
-<P><STRONG><a name="[1f6]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[1f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_group
-<LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
-<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<P><STRONG><a name="[1f7]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_group
+<LI><a href="#[1f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_group_once
+<LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 </UL>
 
 <P><STRONG><a name="[2ea]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
@@ -3935,23 +3922,23 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[206]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
 
-<P><STRONG><a name="[1f3]"></a>strlen</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, strlen.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
-<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
-<LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
+<P><STRONG><a name="[1f4]"></a>strlen</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, strlen.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_action
+<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
 </UL>
 
-<P><STRONG><a name="[1fb]"></a>strcpy</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, strcpy.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[1e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
-<LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
+<P><STRONG><a name="[1fc]"></a>strcpy</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, strcpy.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;save_action
+<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ps2
 </UL>
 
-<P><STRONG><a name="[1fa]"></a>__0sscanf</STRONG> (Thumb, 48 bytes, Stack size 72 bytes, __0sscanf.o(.text))
+<P><STRONG><a name="[1fb]"></a>__0sscanf</STRONG> (Thumb, 48 bytes, Stack size 72 bytes, __0sscanf.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 264<LI>Call Chain = __0sscanf &rArr; __vfscanf_char &rArr; __vfscanf &rArr; _scanf_real
 </UL>
 <BR>[Calls]<UL><LI><a href="#[208]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__vfscanf_char
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 </UL>
 
 <P><STRONG><a name="[209]"></a>_scanf_int</STRONG> (Thumb, 332 bytes, Stack size 56 bytes, _scanf_int.o(.text))
@@ -4052,8 +4039,8 @@ Global Symbols
 <LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VIN_GetVol_X100
 <LI><a href="#[1d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 <LI><a href="#[1da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_acos
-<LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 <LI><a href="#[1d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_analysis
 <LI><a href="#[1c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ROBOT_Kinematics
 <LI><a href="#[221]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_invalid
@@ -4080,7 +4067,7 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;duoji_doing_set
 <LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VIN_GetVol_X100
-<LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
+<LI><a href="#[1ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
 <LI><a href="#[227]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee754_rem_pio2
 </UL>
 
@@ -4105,8 +4092,8 @@ Global Symbols
 
 <P><STRONG><a name="[191]"></a>__aeabi_f2d</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, f2d.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;duoji_doing_set
-<LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 <LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Control_Task
 <LI><a href="#[1d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_analysis
 <LI><a href="#[1c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ROBOT_Kinematics
@@ -4123,8 +4110,8 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MPU_Get_Temperature
 <LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;duoji_doing_set
-<LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 <LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_Control_Task
 <LI><a href="#[1d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_analysis
 <LI><a href="#[1c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ROBOT_Kinematics
@@ -4171,7 +4158,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[217]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__vfscanf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sscanf
+<BR>[Called By]<UL><LI><a href="#[1fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sscanf
 </UL>
 
 <P><STRONG><a name="[81]"></a>_sgetc</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, _sgetc.o(.text))
@@ -4290,7 +4277,7 @@ Global Symbols
 <LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBH_USR_UnrecoveredError
 <LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBH_USR_DeviceAttached
 <LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBH_USR_Init
-<LI><a href="#[1f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;soft_reset
+<LI><a href="#[1f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;soft_reset
 </UL>
 
 <P><STRONG><a name="[21e]"></a>__0sprintf$8</STRONG> (Thumb, 34 bytes, Stack size 24 bytes, printf8.o(i.__0sprintf$8), UNUSED)
@@ -4304,9 +4291,9 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2sprintf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USR_KEYBRD_ProcessData
-<LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
-<LI><a href="#[1f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_move
-<LI><a href="#[1e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
+<LI><a href="#[1ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_servo
+<LI><a href="#[1f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kinematics_move
+<LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;parse_cmd
 </UL>
 
 <P><STRONG><a name="[224]"></a>__ARM_fpclassify</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, fpclassify.o(i.__ARM_fpclassify))
@@ -4712,7 +4699,7 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_OTG_CoreInit
 </UL>
 
-<P><STRONG><a name="[138]"></a>NVIC_SetPriority</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, sys.o(.text))
+<P><STRONG><a name="[138]"></a>NVIC_SetPriority</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
 <BR><BR>[Called By]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTickConfig
 </UL>
 
@@ -4799,23 +4786,23 @@ Local Symbols
 <LI><a href="#[1ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_wait_ack
 </UL>
 
-<P><STRONG><a name="[201]"></a>AI_xunji_moshi_pro</STRONG> (Thumb, 468 bytes, Stack size 40 bytes, app_sensor.o(.text))
+<P><STRONG><a name="[202]"></a>AI_xunji_moshi_pro</STRONG> (Thumb, 468 bytes, Stack size 40 bytes, app_sensor.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = AI_xunji_moshi_pro &rArr; Delay_ms
 </UL>
 <BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputDataBit
 <LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_ms
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
+<BR>[Called By]<UL><LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
 </UL>
 
-<P><STRONG><a name="[202]"></a>AI_xunji_moshi</STRONG> (Thumb, 312 bytes, Stack size 32 bytes, app_sensor.o(.text))
+<P><STRONG><a name="[203]"></a>AI_xunji_moshi</STRONG> (Thumb, 312 bytes, Stack size 32 bytes, app_sensor.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = AI_xunji_moshi &rArr; beep_on_times &rArr; Delay_ms
 </UL>
 <BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputDataBit
 <LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beep_on_times
-<LI><a href="#[1fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;millis
+<LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;millis
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
+<BR>[Called By]<UL><LI><a href="#[1e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sensor_run
 </UL>
 
 <P><STRONG><a name="[21d]"></a>_printf_core</STRONG> (Thumb, 984 bytes, Stack size 104 bytes, printf8.o(i._printf_core), UNUSED)
