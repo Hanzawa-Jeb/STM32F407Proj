@@ -49,16 +49,4 @@ void Motor_Control_Task(void)
     MOTOR_D_SetSpeed(Motor_D.PWM);
 }
 
-int main(void)
-{
-    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
-    UART1_Init(115200);
-    Motor_Init();
 
-    while (1)
-    {
-        Motor_Control_Task();
-        printf("@%f  %f   %f  %f\r\n", Motor_A.RT, Motor_B.RT, Motor_C.RT, Motor_D.RT);
-        // Delay_ms(1);
-    }
-}
