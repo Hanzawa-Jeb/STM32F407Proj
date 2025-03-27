@@ -13,13 +13,13 @@
 
 
 #define Task_Num 6
-#define MOTOR_COUNT 5
+#define MOTOR_COUNT 500
 
 #define HFPeriod_COUNT 1	// 5ms
 #define FaulPeriod_COUNT 10 // 10ms
 #define Robot_COUNT 5		// 10ms
 #define KEY_COUNT 80		// 10ms
-#define LEDPeriod_COUNT 600 // 500ms
+#define LEDPeriod_COUNT 6 // 500ms
 #define filter_N 12
 
 extern __ALIGN_BEGIN USB_OTG_CORE_HANDLE USB_OTG_Core_dev __ALIGN_END;
@@ -142,20 +142,20 @@ void Task_Manage_List_Init(void)
 	TasksPare[1].Task_Function = task_send_Rece; //
 
 	TasksPare[2].Task_Period = Robot_COUNT; // 20ms
-	TasksPare[2].Task_Count = 15;
+	TasksPare[2].Task_Count = 1;
 	TasksPare[2].Task_Function = Robot_Control; //
 
 	TasksPare[3].Task_Period = KEY_COUNT; // 100ms
-	TasksPare[3].Task_Count = 80;
+	TasksPare[3].Task_Count = 8;
 	TasksPare[3].Task_Function = KEY_RUN; //
 
 	TasksPare[4].Task_Period = LEDPeriod_COUNT; // 500ms
-	TasksPare[4].Task_Count = 300;
+	TasksPare[4].Task_Count = 30;
 	TasksPare[4].Task_Function = Task_LED; // 500ms的LED的闪烁
 
     // 添加电机控制任务
     TasksPare[5].Task_Period = MOTOR_COUNT;    // 5ms周期
-    TasksPare[5].Task_Count = 2;               // 错开其他任务执行时间
+    TasksPare[5].Task_Count = 20;               // 错开其他任务执行时间
     TasksPare[5].Task_Function = Motor_Control_Task;
 }
 // USER CODE END

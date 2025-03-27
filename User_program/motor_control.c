@@ -18,10 +18,10 @@ void Motor_Init(void)
     ENCODER_D_Init();
 
     // 初始化目标速度
-    Motor_A.TG = 0;
-    Motor_B.TG = 0;
-    Motor_C.TG = 0;
-    Motor_D.TG = 0;
+    Motor_A.TG = 2000;
+    Motor_B.TG = 2000;
+    Motor_C.TG = 2000;
+    Motor_D.TG = 2000;
 }
 
 void Motor_Control_Task(void)
@@ -45,7 +45,7 @@ void Motor_Control_Task(void)
     // 设置电机PWM值
     MOTOR_A_SetSpeed(Motor_A.PWM);
     MOTOR_B_SetSpeed(Motor_B.PWM);
-    MOTOR_C_SetSpeed(-Motor_C.PWM);
+    MOTOR_C_SetSpeed(Motor_C.PWM);
     MOTOR_D_SetSpeed(Motor_D.PWM);
 }
 
