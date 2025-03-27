@@ -72,6 +72,7 @@
 .\objects\usbh_usr.o: ..\Hardware_include\y_sentry2.h
 .\objects\usbh_usr.o: ..\User_include\app_sensor.h
 .\objects\usbh_usr.o: ..\User_include\app_ps2.h
+.\objects\usbh_usr.o: ..\User_include\motor_control.h
 .\objects\usbh_usr.o: ..\USB\USB_HOST_DRIVER\inc\usb_core.h
 .\objects\usbh_usr.o: ..\USB\USB_HOST_DRIVER\inc\usb_defines.h
 .\objects\usbh_usr.o: ..\USB\USB_HOST_CODE\inc\usbh_def.h

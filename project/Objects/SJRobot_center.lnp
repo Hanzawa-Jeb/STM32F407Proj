@@ -58,6 +58,7 @@
 ".\objects\y_global.o"
 ".\objects\app_sensor.o"
 ".\objects\app_ps2.o"
+".\objects\motor_control.o"
 --library_type=microlib --strict --scatter ".\Objects\SJRobot_center.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

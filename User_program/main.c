@@ -1,11 +1,16 @@
 #include "main.h"
 
-extern MOTOR_T Motor_A, Motor_B, Motor_C, Motor_D;
-
 #include "usb_bsp.h"
 #include "usbh_core.h"
 #include "usbh_usr.h"
 #include "usbh_hid_core.h"
+
+typedef struct
+{
+	double RT; // ???????,??m/s
+	float TG;  // ???????,??m/s
+	short PWM; // ????PWM????
+} MOTOR_T;
 
 __ALIGN_BEGIN USB_OTG_CORE_HANDLE USB_OTG_Core_dev __ALIGN_END;
 __ALIGN_BEGIN USBH_HOST USB_Host __ALIGN_END;
@@ -13,6 +18,7 @@ extern HID_Machine_TypeDef HID_Machine;
 
 int main(void)
 {
+	MOTOR_T Motor_A, Motor_B, Motor_C, Motor_D;
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
 
 	Delay_ms(5);

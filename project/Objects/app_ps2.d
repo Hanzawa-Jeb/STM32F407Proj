@@ -68,6 +68,7 @@
 .\objects\app_ps2.o: ..\Hardware_include\y_sentry2.h
 .\objects\app_ps2.o: ..\User_include\app_sensor.h
 .\objects\app_ps2.o: ..\User_include\app_ps2.h
+.\objects\app_ps2.o: ..\User_include\motor_control.h
 .\objects\app_ps2.o: ..\USB\USB_HOST_CLASS\HID\inc\usbh_hid_gamepad.h
 .\objects\app_ps2.o: ..\USB\USB_HOST_CLASS\HID\inc\usbh_hid_core.h
 .\objects\app_ps2.o: ..\USB\USB_HOST_CODE\inc\usbh_core.h

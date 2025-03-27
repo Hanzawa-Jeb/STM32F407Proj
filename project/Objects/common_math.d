@@ -67,3 +67,4 @@
 .\objects\common_math.o: ..\Hardware_include\y_sentry2.h
 .\objects\common_math.o: ..\User_include\app_sensor.h
 .\objects\common_math.o: ..\User_include\app_ps2.h
+.\objects\common_math.o: ..\User_include\motor_control.h

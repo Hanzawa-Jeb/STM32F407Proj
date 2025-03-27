@@ -67,3 +67,4 @@
 .\objects\gpio_int.o: ..\Hardware_include\y_sentry2.h
 .\objects\gpio_int.o: ..\User_include\app_sensor.h
 .\objects\gpio_int.o: ..\User_include\app_ps2.h
+.\objects\gpio_int.o: ..\User_include\motor_control.h

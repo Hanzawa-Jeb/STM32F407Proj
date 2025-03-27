@@ -34,6 +34,8 @@
 #include "app_sensor.h"
 #include "app_ps2.h"
 
+#include "motor_control.h"
+#include "TIM1pwm.h"    // 电机PWM控制
 
 
 #endif

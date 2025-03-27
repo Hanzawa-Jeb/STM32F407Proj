@@ -1,17 +1,12 @@
 #include "motor_control.h"
 
-typedef struct
-{
-	double RT; // 电机的实时速度，单位m/s
-	float TG;  // 设置的目标速度，单位m/s
-	short PWM; // 计算出的PWM控制速度
-} MOTOR_T;
-
 MOTOR_T Motor_A,Motor_B,Motor_C,Motor_D;
 
 int main(void)
 {
-	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+    MOTOR_T Motor_A,Motor_B,Motor_C,Motor_D;
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+
 	
 	UART1_Init(115200);
 	

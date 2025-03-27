@@ -68,3 +68,4 @@
 .\objects\y_w25q64.o: ..\Hardware_include\y_sentry2.h
 .\objects\y_w25q64.o: ..\User_include\app_sensor.h
 .\objects\y_w25q64.o: ..\User_include\app_ps2.h
+.\objects\y_w25q64.o: ..\User_include\motor_control.h

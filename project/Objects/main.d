@@ -67,6 +67,7 @@
 .\objects\main.o: ..\Hardware_include\y_sentry2.h
 .\objects\main.o: ..\User_include\app_sensor.h
 .\objects\main.o: ..\User_include\app_ps2.h
+.\objects\main.o: ..\User_include\motor_control.h
 .\objects\main.o: ..\USB\USB_HOST_DRIVER\inc\usb_bsp.h
 .\objects\main.o: ..\USB\USB_HOST_DRIVER\inc\usb_core.h
 .\objects\main.o: ..\USB\USB_APP\usb_conf.h

@@ -69,6 +69,7 @@
 .\objects\usb_hcd_int.o: ..\Hardware_include\y_sentry2.h
 .\objects\usb_hcd_int.o: ..\User_include\app_sensor.h
 .\objects\usb_hcd_int.o: ..\User_include\app_ps2.h
+.\objects\usb_hcd_int.o: ..\User_include\motor_control.h
 .\objects\usb_hcd_int.o: ..\USB\USB_HOST_DRIVER\inc\usb_regs.h
 .\objects\usb_hcd_int.o: ..\USB\USB_HOST_DRIVER\inc\usb_defines.h
 .\objects\usb_hcd_int.o: ..\USB\USB_HOST_DRIVER\inc\usb_hcd_int.h

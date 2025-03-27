@@ -69,6 +69,7 @@
 .\objects\usbh_ioreq.o: ..\Hardware_include\y_sentry2.h
 .\objects\usbh_ioreq.o: ..\User_include\app_sensor.h
 .\objects\usbh_ioreq.o: ..\User_include\app_ps2.h
+.\objects\usbh_ioreq.o: ..\User_include\motor_control.h
 .\objects\usbh_ioreq.o: ..\USB\USB_HOST_CODE\inc\usbh_core.h
 .\objects\usbh_ioreq.o: ..\USB\USB_HOST_DRIVER\inc\usb_hcd.h
 .\objects\usbh_ioreq.o: ..\USB\USB_HOST_DRIVER\inc\usb_regs.h

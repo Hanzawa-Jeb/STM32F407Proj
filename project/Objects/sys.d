@@ -67,3 +67,4 @@
 .\objects\sys.o: ..\Hardware_include\y_sentry2.h
 .\objects\sys.o: ..\User_include\app_sensor.h
 .\objects\sys.o: ..\User_include\app_ps2.h
+.\objects\sys.o: ..\User_include\motor_control.h

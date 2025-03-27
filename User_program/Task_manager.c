@@ -8,8 +8,12 @@
 #include "main.h"
 #include "stdio.h"
 #include "usbh_usr.h"
+#include "motor_control.h"
+
+
 
 #define Task_Num 6
+#define MOTOR_COUNT 5
 
 #define HFPeriod_COUNT 1	// 5ms
 #define FaulPeriod_COUNT 10 // 10ms
@@ -148,5 +152,35 @@ void Task_Manage_List_Init(void)
 	TasksPare[4].Task_Period = LEDPeriod_COUNT; // 500ms
 	TasksPare[4].Task_Count = 300;
 	TasksPare[4].Task_Function = Task_LED; // 500ms的LED的闪烁
+
+    // 添加电机控制任务
+    TasksPare[5].Task_Period = MOTOR_COUNT;    // 5ms周期
+    TasksPare[5].Task_Count = 2;               // 错开其他任务执行时间
+    TasksPare[5].Task_Function = Motor_Control_Task;
 }
 // USER CODE END
+
+void Motor_Control_Task(void)
+{
+    // 读取编码器数据
+    Motor_A.RT = (float)((int16_t)ENCODER_A_GetCounter()*420);
+    ENCODER_A_SetCounter(0);
+    Motor_B.RT = (float)((int16_t)ENCODER_B_GetCounter()*420);
+    ENCODER_B_SetCounter(0);
+    Motor_C.RT = -(float)((int16_t)ENCODER_C_GetCounter()*420);
+    ENCODER_C_SetCounter(0);
+    Motor_D.RT = (float)((int16_t)ENCODER_D_GetCounter()*420);
+    ENCODER_D_SetCounter(0);
+
+    // PID控制计算
+    Motor_A.PWM = SPEED_PidCtlA(Motor_A.TG, Motor_A.RT);
+    Motor_B.PWM = SPEED_PidCtlB(Motor_B.TG, Motor_B.RT);
+    Motor_C.PWM = SPEED_PidCtlC(Motor_C.TG, Motor_C.RT);
+    Motor_D.PWM = SPEED_PidCtlD(Motor_D.TG, Motor_D.RT);
+
+    // 更新电机PWM
+    MOTOR_A_SetSpeed(Motor_A.PWM);
+    MOTOR_B_SetSpeed(Motor_B.PWM);
+    MOTOR_C_SetSpeed(-Motor_C.PWM);
+    MOTOR_D_SetSpeed(Motor_D.PWM);
+}

@@ -729,6 +729,11 @@
               <FileType>1</FileType>
               <FilePath>..\User_program\app_ps2.c</FilePath>
             </File>
+            <File>
+              <FileName>motor_control.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User_program\motor_control.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
@@ -740,5 +745,14 @@
     <components/>
     <files/>
   </RTE>
+
+  <LayerInfo>
+    <Layers>
+      <Layer>
+        <LayName>SJRobot_center</LayName>
+        <LayPrjMark>1</LayPrjMark>
+      </Layer>
+    </Layers>
+  </LayerInfo>
 
 </Project>

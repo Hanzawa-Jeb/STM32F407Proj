@@ -67,3 +67,4 @@
 .\objects\uart1.o: ..\Hardware_include\y_sentry2.h
 .\objects\uart1.o: ..\User_include\app_sensor.h
 .\objects\uart1.o: ..\User_include\app_ps2.h
+.\objects\uart1.o: ..\User_include\motor_control.h

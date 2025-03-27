@@ -67,6 +67,7 @@
 .\objects\task_manager.o: ..\Hardware_include\y_sentry2.h
 .\objects\task_manager.o: ..\User_include\app_sensor.h
 .\objects\task_manager.o: ..\User_include\app_ps2.h
+.\objects\task_manager.o: ..\User_include\motor_control.h
 .\objects\task_manager.o: ..\USB\USB_APP\usbh_usr.h
 .\objects\task_manager.o: ..\USB\USB_HOST_CODE\inc\usbh_core.h
 .\objects\task_manager.o: ..\USB\USB_HOST_DRIVER\inc\usb_hcd.h
