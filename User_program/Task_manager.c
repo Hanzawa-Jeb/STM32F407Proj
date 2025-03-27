@@ -9,7 +9,7 @@
 #include "stdio.h"
 #include "usbh_usr.h"
 
-#define Task_Num 5
+#define Task_Num 6
 
 #define HFPeriod_COUNT 1	// 5ms
 #define FaulPeriod_COUNT 10 // 10ms

@@ -1,6 +1,6 @@
 // ############################################################
 //  FILE:  Task_manager_H
-//  Created on: 2021Äê8ÔÂ14ÈÕ
+//  Created on: 2021ï¿½ï¿½8ï¿½ï¿½14ï¿½ï¿½
 //  Author: lee
 //  summary: Header file  and definition
 // ############################################################
@@ -28,5 +28,6 @@ void task_send_Rece(void);
 void Balance_Control(void);
 
 void BIKE_balance(void);
+void Motor_Control_Task(void);
 
 #endif // Task_manager_H

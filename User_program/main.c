@@ -1,5 +1,7 @@
 #include "main.h"
 
+extern MOTOR_T Motor_A, Motor_B, Motor_C, Motor_D;
+
 #include "usb_bsp.h"
 #include "usbh_core.h"
 #include "usbh_usr.h"
@@ -51,6 +53,11 @@ int main(void)
 	ENCODER_D_Init();
 	setup_w25q64();
 
+    Motor_A.TG = 2000;
+    Motor_B.TG = 2000;
+    Motor_C.TG = 2000;
+    Motor_D.TG = 2000;
+    
 	// 6050×ËÌ¬³õÊ¼»¯
 	MPU_Init();
 	Delay_ms(5);
